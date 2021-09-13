@@ -1,0 +1,75 @@
+.splide__arrow--prev {
+  left: -60px;
+}
+.splide__arrow--next {
+  right: -60px;
+}
+.carousel {
+  padding: 0 60px;
+  margin-bottom: 55px;
+}
+.splide__arrow {
+  border: #ffe5c9 1px solid;
+  height: 100%;
+  background: #fff;
+  width: 43px;
+  border-radius: 5px;
+}
+.splide__arrow svg {
+  width: 25px;
+  fill: #ffe5c9;
+  height: 35px;
+}
+.splide__pagination {
+  display: none;
+}
+.splide__slide > {
+  position: relative;
+}
+.tempo {
+  width: 90px;
+  height: 28px;
+  background: #e4661a;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  position: absolute;
+  left: 12px;
+  top: 0;
+}
+.infos_carou {
+  position: absolute;
+  bottom: 0;
+  background: #fff;
+  z-index: 100;
+}
+.infos_carou p {
+  color: #d16b00;
+  line-height: 24px;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 10px 0;
+}
+.splide__slide {
+  background-size: contain !important;
+  background-position: top center !important;
+}
+.play_carou {
+  color: #71878e;
+  font-size: 12px;
+  display: flex;
+  margin-top: 12px;
+  align-items: center;
+  background: none;
+  cursor: pointer;
+  border: none;
+  transition: transform 0.5s;
+}
+.play_carou:hover {
+  transform: scale(1.1);
+}
+.play_carou img {
+  margin-right: 10px;
+}

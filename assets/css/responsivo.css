@@ -1,0 +1,87 @@
+@media (max-width: 1006px) {
+  .container {
+    width: 90%;
+  }
+  .itens_trilhas {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+@media (max-width: 800px) {
+  .temas {
+    grid-template-columns: 1fr 1fr !important;
+  }
+  .fotos_comunidade {
+    flex-wrap: wrap;
+  }
+  .busca {
+    padding: 45px 0 !important;
+    grid-template-columns: 1fr !important;
+  }
+  .item_incontro {
+    grid-template-columns: 1fr !important;
+    height: auto !important;
+    place-items: center;
+  }
+  .item_incontro img {
+    margin-bottom: 14px;
+  }
+  .item_incontro > div,
+  .itens_trilhas,
+  .comunidade {
+    grid-template-columns: 1fr !important ;
+  }
+  .item_incontro > div h2,
+  .item_incontro > div .local {
+    text-align: left !important;
+    margin-bottom: 10px !important;
+  }
+  .impacta img {
+    max-width: 100% !important;
+  }
+  .item_trilha {
+    height: 290px !important;
+  }
+  .infos {
+    padding: 15px !important;
+  }
+  .seguir {
+    bottom: 15px !important;
+    right: 15px !important;
+  }
+  .perfil {
+    display: none !important;
+  }
+}
+@media (max-width: 550px) {
+  .titulo {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .temas,
+  .itens_trilhas {
+    grid-template-columns: 1fr !important;
+    grid-row-gap: 24px !important;
+  }
+  .itens_trilhas,
+  .item_novidades,
+  .emcontros,
+  .emcontros {
+    margin-top: 30px !important;
+  }
+  .emcontros {
+    margin-bottom: 30px !important;
+  }
+  .item_incontro > div p,
+  .item_novidades h2 {
+    font-size: 18px !important;
+  }
+  footer {
+    padding-bottom: 30px !important;
+  }
+  .lupa span {
+    font-size: 14px !important;
+  }
+  .busca .lupa img {
+    width: 15px;
+  }
+}
